@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 15px 0;
+        }
+        .arrow {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+    </style>
+<div class="container">
+
+    <!-- Card 1 -->
+    <div class="card">
+        <img src="photo.jpeg" alt="college">
+        <h3>Oriental Institute of Science & Technology, Bhopal</h3>
+        <div class="arrow">→</div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <img src="photo.jpeg" alt="college">
+        <h3>Oriental College of Technology, Bhopal</h3>
+        <div class="arrow">→</div>
+    </div>
+
+</div>
+
+</body>
+</html>
